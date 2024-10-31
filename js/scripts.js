@@ -6,21 +6,25 @@ const passwordContent =
   "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz01234567890!@#$%^&*()_+-={}[]:;<>,.?/</>";
   const buttonPasswordElement = document.getElementById("buttonPassword")
 
-
+let passwordLength = 0
 const lengthPass= (event) => {
 console.log(event.target.value);
+passwordLength = event.target.value
 lengthPassElement.textContent ="Length : " + event.target.value
 }
 
-const password = () => {
+
+
+const generatePassword = () => {
   let newPassword =""
-  for (let i =0 ; i  < lengthPass; i++){
+  for (let i =0 ; i  < passwordLength; i++){
     const randomNumber = Math.floor(Math.random()*passwordContent.length)
     const randomCharacter = passwordContent.charAt(randomNumber)
-    newPassword += randomCharacter
+    newPassword = newPassword + randomCharacter
   }
+  passwordElement.textContent =newPassword
 }
 
 
 rangeElement.addEventListener("input",lengthPass);
-buttonPasswordElement.addEventListener("click",password);
+buttonPasswordElement.addEventListener("click",generatePassword);
