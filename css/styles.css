@@ -29,7 +29,7 @@ margin-top: 150px;
    
 }
 .container{
-  
+  position: relative;
  display: flex;
   align-items: center;
   justify-content: center;
@@ -43,7 +43,11 @@ margin-top: 150px;
 }
 
 .icono{
-  width: 150px;
+  position: absolute;
+  width: 100px;
+  height: 150px;
+  right: -40px;
+  top: -110px;
   background-image: url(../assets/gato.png);
  background-repeat: no-repeat;
  background-size: contain;
