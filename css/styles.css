@@ -19,59 +19,56 @@ ul {
   margin-bottom: 0;
 }
 body {
-  
- display: flex;
-justify-content: center;
-margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
   font-family: sans-serif;
   background-color: rgb(50, 0, 75);
   background-color: rgb(252, 187, 240);
-   
 }
-.container{
+.container {
   position: relative;
- display: flex;
+  display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   border-radius: 12px;
   width: 350px;
   height: 350px;
-  border:2px solid  rgb(255, 2, 154); 
+  border: 2px solid rgb(255, 2, 154);
   background-color: rgb(240 255 255/0.6);
-  box-shadow: 4px 4px 8px  rgb(255, 2, 154);
+  box-shadow: 4px 4px 8px rgb(255, 2, 154);
 }
 
-.icono{
+.icono {
   position: absolute;
   width: 100px;
   height: 150px;
   right: -40px;
   top: -110px;
   background-image: url(../assets/gato.png);
- background-repeat: no-repeat;
- background-size: contain;
- background-position: bottom;
- 
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
 }
-.box1{
+.box1 {
   display: flex;
   justify-content: center;
   width: 300px;
   padding-left: 8px;
   padding-right: 8px;
   height: 50px;
- background-color: azure;
-  border:2px solid  rgb(255, 2, 154);
+  background-color: azure;
+  border: 2px solid rgb(255, 2, 154);
   color: rgb(255, 2, 154);
   border-radius: 10px;
 }
-.textLength{
+.textLength {
   display: flex;
   width: 300px;
-  color:rgb(255, 2, 154);
+  color: rgb(255, 2, 154);
 }
-.box2{
+.box2 {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -79,27 +76,24 @@ margin-top: 150px;
   height: 50px;
   border-radius: 10px;
   background-color: azure;
-  border:2px solid  rgb(255, 2, 154);
+  border: 2px solid rgb(255, 2, 154);
 }
 
-.rangeCss{
+.rangeCss {
   width: 200px;
   height: 5px;
   accent-color: rgb(255, 2, 154);
-  
-
 }
 
-.accentText{
-  color:rgb(255, 2, 154);
-
+.accentText {
+  color: rgb(255, 2, 154);
 }
-.generatePas{
+.generatePas {
   margin-top: 30px;
-width: 300px;
-height: 50px;
-border-radius: 8px;
-background-color: azure;
-  border:2px solid  rgb(255, 2, 154);
-color: rgb(255, 2, 154);
+  width: 300px;
+  height: 50px;
+  border-radius: 8px;
+  background-color: azure;
+  border: 2px solid rgb(255, 2, 154);
+  color: rgb(255, 2, 154);
 }
